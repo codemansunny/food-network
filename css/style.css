@@ -1,0 +1,114 @@
+/* All CSS Written Scrial By Serial(Top to End) */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h1 span{
+    color: red;
+    font-weight: 500px;
+}
+
+p{
+    text-align: justify;
+}
+
+.anchor-button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background: linear-gradient(45deg,lightsalmon, tomato);
+    font-weight: 700;
+}
+
+section {
+    height: 750px;
+}
+
+.container{
+        display: flex;
+        width: 90%;
+        margin: 5%;
+        padding: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.half-width{
+        width: 50%;
+    }
+
+.half-width img{
+    width: 95%;
+}
+.about{
+    background-image: url(../images/background/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recipes{
+    padding: 30px 0 80px;
+}
+
+.recipes-title h3{
+    text-align: center;
+    font-size: 50px;
+    color: tomato;
+    margin-bottom: 20px;
+}
+ 
+.recipes-title p{
+
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipe-card{
+    width: 28%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px gray;
+    margin-top: 40px;
+}
+.recipe-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.recipe-content h3{
+    margin: 20px 0 15px;
+    font-size: 30px;
+}
+.recipe-content p{
+    line-height: 2;
+}
+
+footer{
+    
+    background-color: #04113b;
+    margin-top: 200px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer h3 span{
+    color: tomato;
+}
+
+footer h3{
+    color: rgb(108, 248, 143);
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+
+footer p{
+    font-size: 18px;
+    color: #fff;
+    text-align:center;
+}
